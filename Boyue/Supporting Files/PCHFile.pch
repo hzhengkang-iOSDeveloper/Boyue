@@ -1,0 +1,45 @@
+//
+//  PCHFile.pch
+//  Boyue
+//
+//  Created by 胡正康 on 2019/1/31.
+//
+
+#ifndef PCHFile_pch
+#define PCHFile_pch
+
+/****************************************************************************************/
+//                                                                                      //
+//                                      头文件引用                                        //
+//                                                                                      //
+/****************************************************************************************/
+
+//头文件
+#import <Foundation/Foundation.h>
+#import "BYToolMacro.h"           // 常用的Tool宏定义
+#import "BYUtilsMacro.h"          // 常用的方法
+
+
+//类扩展
+#import "UIButton+Style.h"
+#import "UIColor+Extension.h"
+#import "UILabel+Style.h"
+#import "UITableView+Extension.h"
+#import "UIView+Style.h"
+#import "UIButton+Gradient.h"
+#import "NSString+Extension.h"
+#import "UIImageView+ExtensionColor.h"
+#import "UIButton+ImageTitleSpacing.h"
+#import "UIViewController+ZZNavigationItem.h"
+#import "UITextView+Placeholder.h"
+
+//三方
+#import <Masonry/Masonry.h>                     // 自动布局
+#import <WMPageController.h>//滑动菜单类
+#import <MJExtension.h>
+#import <YYModel.h>
+#import <YYCategories.h>
+#import <IQKeyboardManager.h>
+#import <FMDB.h>
+
+#endif /* PCHFile_pch */

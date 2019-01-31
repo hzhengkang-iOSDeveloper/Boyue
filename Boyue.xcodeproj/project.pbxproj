@@ -7,12 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4398FB39A1CFCA6BCADA8925 /* libPods-Boyue.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F05575DF5BD16F8114D8B0E /* libPods-Boyue.a */; };
 		50E90AAD2202938300F64E66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E90AAC2202938300F64E66 /* AppDelegate.m */; };
 		50E90AB02202938300F64E66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E90AAF2202938300F64E66 /* ViewController.m */; };
 		50E90AB32202938300F64E66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E90AB12202938300F64E66 /* Main.storyboard */; };
 		50E90AB52202938400F64E66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50E90AB42202938400F64E66 /* Assets.xcassets */; };
 		50E90AB82202938400F64E66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E90AB62202938400F64E66 /* LaunchScreen.storyboard */; };
 		50E90ABB2202938400F64E66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E90ABA2202938400F64E66 /* main.m */; };
+		50E90AC322029A1F00F64E66 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E90AC222029A1F00F64E66 /* Foundation+Log.m */; };
+		50E90AC622029A6000F64E66 /* ImageIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50E90AC522029A6000F64E66 /* ImageIcon.xcassets */; };
+		50E90AF522029B0500F64E66 /* UIImageView+ExtensionColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E90AD022029B0200F64E66 /* UIImageView+ExtensionColor.m */; };
+		50E90AF622029B0500F64E66 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E90AD322029B0300F64E66 /* UIButton+ImageTitleSpacing.m */; };
+		50E90AF722029B0500F64E66 /* UIDevice+TFDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E90AD422029B0300F64E66 /* UIDevice+TFDevice.m */; };
+		50E90AF822029B0500F64E66 /* CALayer+Anim.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E90AD522029B0300F64E66 /* CALayer+Anim.m */; };
+		50E90AF922029B0500F64E66 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E90AD722029B0300F64E66 /* UIColor+Extension.m */; };
+		50E90AFA22029B0500F64E66 /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E90AD922029B0300F64E66 /* NSString+Helper.m */; };
+		50E90AFB22029B0500F64E66 /* UIButton+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E90ADD22029B0300F64E66 /* UIButton+Gradient.m */; };
+		50E90AFC22029B0500F64E66 /* NSDate+PosTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E90ADF22029B0300F64E66 /* NSDate+PosTool.m */; };
+		50E90AFD22029B0500F64E66 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E90AE022029B0300F64E66 /* NSString+Extension.m */; };
+		50E90AFE22029B0500F64E66 /* UIView+Style.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E90AE222029B0300F64E66 /* UIView+Style.m */; };
+		50E90B0022029B0500F64E66 /* UILabel+Style.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E90AE522029B0300F64E66 /* UILabel+Style.m */; };
+		50E90B0122029B0500F64E66 /* ZZActionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E90AE822029B0400F64E66 /* ZZActionButton.m */; };
+		50E90B0222029B0500F64E66 /* UITableView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E90AE922029B0400F64E66 /* UITableView+Extension.m */; };
+		50E90B0322029B0500F64E66 /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E90AEA22029B0400F64E66 /* UITextView+Placeholder.m */; };
+		50E90B0422029B0500F64E66 /* UIViewController+ZZNavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E90AEE22029B0400F64E66 /* UIViewController+ZZNavigationItem.m */; };
+		50E90B0522029B0500F64E66 /* NSDictionary+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E90AF022029B0400F64E66 /* NSDictionary+Tool.m */; };
+		50E90B0622029B0500F64E66 /* NSDate+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E90AF122029B0400F64E66 /* NSDate+category.m */; };
+		50E90B0722029B0500F64E66 /* UIButton+Style.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E90AF322029B0400F64E66 /* UIButton+Style.m */; };
+		50E90B0A22029B4B00F64E66 /* BYUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E90B0922029B4B00F64E66 /* BYUserInfo.m */; };
+		50E90B142202A31C00F64E66 /* BYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E90B132202A31C00F64E66 /* BYBaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +49,54 @@
 		50E90AB72202938400F64E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50E90AB92202938400F64E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50E90ABA2202938400F64E66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50E90AC222029A1F00F64E66 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		50E90AC422029A4200F64E66 /* PCHFile.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCHFile.pch; sourceTree = "<group>"; };
+		50E90AC522029A6000F64E66 /* ImageIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ImageIcon.xcassets; sourceTree = "<group>"; };
+		50E90ACF22029B0200F64E66 /* UIImageView+ExtensionColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ExtensionColor.h"; sourceTree = "<group>"; };
+		50E90AD022029B0200F64E66 /* UIImageView+ExtensionColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ExtensionColor.m"; sourceTree = "<group>"; };
+		50E90AD122029B0200F64E66 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		50E90AD222029B0200F64E66 /* NSDate+PosTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+PosTool.h"; sourceTree = "<group>"; };
+		50E90AD322029B0300F64E66 /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
+		50E90AD422029B0300F64E66 /* UIDevice+TFDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+TFDevice.m"; sourceTree = "<group>"; };
+		50E90AD522029B0300F64E66 /* CALayer+Anim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Anim.m"; sourceTree = "<group>"; };
+		50E90AD622029B0300F64E66 /* UIButton+Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Gradient.h"; sourceTree = "<group>"; };
+		50E90AD722029B0300F64E66 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		50E90AD822029B0300F64E66 /* CALayer+Anim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Anim.h"; sourceTree = "<group>"; };
+		50E90AD922029B0300F64E66 /* NSString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
+		50E90ADA22029B0300F64E66 /* NSDate+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+category.h"; sourceTree = "<group>"; };
+		50E90ADB22029B0300F64E66 /* NSString+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helper.h"; sourceTree = "<group>"; };
+		50E90ADC22029B0300F64E66 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		50E90ADD22029B0300F64E66 /* UIButton+Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Gradient.m"; sourceTree = "<group>"; };
+		50E90ADE22029B0300F64E66 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		50E90ADF22029B0300F64E66 /* NSDate+PosTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+PosTool.m"; sourceTree = "<group>"; };
+		50E90AE022029B0300F64E66 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		50E90AE122029B0300F64E66 /* UITableView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Extension.h"; sourceTree = "<group>"; };
+		50E90AE222029B0300F64E66 /* UIView+Style.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Style.m"; sourceTree = "<group>"; };
+		50E90AE422029B0300F64E66 /* UILabel+Style.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Style.h"; sourceTree = "<group>"; };
+		50E90AE522029B0300F64E66 /* UILabel+Style.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Style.m"; sourceTree = "<group>"; };
+		50E90AE622029B0300F64E66 /* UIDevice+TFDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+TFDevice.h"; sourceTree = "<group>"; };
+		50E90AE722029B0300F64E66 /* NSDictionary+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Tool.h"; sourceTree = "<group>"; };
+		50E90AE822029B0400F64E66 /* ZZActionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZActionButton.m; sourceTree = "<group>"; };
+		50E90AE922029B0400F64E66 /* UITableView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Extension.m"; sourceTree = "<group>"; };
+		50E90AEA22029B0400F64E66 /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
+		50E90AEB22029B0400F64E66 /* UIView+Style.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Style.h"; sourceTree = "<group>"; };
+		50E90AEC22029B0400F64E66 /* UIViewController+ZZNavigationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZZNavigationItem.h"; sourceTree = "<group>"; };
+		50E90AED22029B0400F64E66 /* UIButton+Style.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Style.h"; sourceTree = "<group>"; };
+		50E90AEE22029B0400F64E66 /* UIViewController+ZZNavigationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZZNavigationItem.m"; sourceTree = "<group>"; };
+		50E90AEF22029B0400F64E66 /* ZZActionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZActionButton.h; sourceTree = "<group>"; };
+		50E90AF022029B0400F64E66 /* NSDictionary+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Tool.m"; sourceTree = "<group>"; };
+		50E90AF122029B0400F64E66 /* NSDate+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+category.m"; sourceTree = "<group>"; };
+		50E90AF322029B0400F64E66 /* UIButton+Style.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Style.m"; sourceTree = "<group>"; };
+		50E90AF422029B0400F64E66 /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
+		50E90B0822029B4B00F64E66 /* BYUserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYUserInfo.h; sourceTree = "<group>"; };
+		50E90B0922029B4B00F64E66 /* BYUserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYUserInfo.m; sourceTree = "<group>"; };
+		50E90B0E22029C0400F64E66 /* BYToolMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYToolMacro.h; sourceTree = "<group>"; };
+		50E90B0F22029C2B00F64E66 /* BYUtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYUtilsMacro.h; sourceTree = "<group>"; };
+		50E90B122202A31C00F64E66 /* BYBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYBaseViewController.h; sourceTree = "<group>"; };
+		50E90B132202A31C00F64E66 /* BYBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYBaseViewController.m; sourceTree = "<group>"; };
+		5F05575DF5BD16F8114D8B0E /* libPods-Boyue.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Boyue.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FD82D1611777AE007FD4908 /* Pods-Boyue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boyue.release.xcconfig"; path = "Pods/Target Support Files/Pods-Boyue/Pods-Boyue.release.xcconfig"; sourceTree = "<group>"; };
+		BE085270B3CDA02F2C30E0D5 /* Pods-Boyue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boyue.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Boyue/Pods-Boyue.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4398FB39A1CFCA6BCADA8925 /* libPods-Boyue.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +116,8 @@
 			children = (
 				50E90AAA2202938300F64E66 /* Boyue */,
 				50E90AA92202938300F64E66 /* Products */,
+				858687300FA40F79271E8646 /* Pods */,
+				86ADF5DC8FD9F5502285746D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +132,167 @@
 		50E90AAA2202938300F64E66 /* Boyue */ = {
 			isa = PBXGroup;
 			children = (
-				50E90AAB2202938300F64E66 /* AppDelegate.h */,
-				50E90AAC2202938300F64E66 /* AppDelegate.m */,
+				50E90ACB22029AAC00F64E66 /* Source */,
+				50E90ACA22029AA400F64E66 /* AppDelegate */,
+				50E90AC922029A9A00F64E66 /* Tool */,
+				50E90AC822029A8F00F64E66 /* Macro */,
+				50E90AC722029A7600F64E66 /* Section */,
 				50E90AAE2202938300F64E66 /* ViewController.h */,
 				50E90AAF2202938300F64E66 /* ViewController.m */,
 				50E90AB12202938300F64E66 /* Main.storyboard */,
 				50E90AB42202938400F64E66 /* Assets.xcassets */,
+				50E90AC522029A6000F64E66 /* ImageIcon.xcassets */,
 				50E90AB62202938400F64E66 /* LaunchScreen.storyboard */,
 				50E90AB92202938400F64E66 /* Info.plist */,
-				50E90ABA2202938400F64E66 /* main.m */,
+				50E90AC1220299E500F64E66 /* Supporting Files */,
 			);
 			path = Boyue;
+			sourceTree = "<group>";
+		};
+		50E90AC1220299E500F64E66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50E90AC222029A1F00F64E66 /* Foundation+Log.m */,
+				50E90ABA2202938400F64E66 /* main.m */,
+				50E90AC422029A4200F64E66 /* PCHFile.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50E90AC722029A7600F64E66 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				50E90B1122029C7700F64E66 /* Base */,
+				50E90B1022029C6A00F64E66 /* Controller */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		50E90AC822029A8F00F64E66 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				50E90B0E22029C0400F64E66 /* BYToolMacro.h */,
+				50E90B0F22029C2B00F64E66 /* BYUtilsMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		50E90AC922029A9A00F64E66 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				50E90ACE22029AED00F64E66 /* NetWork */,
+				50E90ACD22029AE500F64E66 /* LoginManager */,
+				50E90ACC22029ADA00F64E66 /* Category */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		50E90ACA22029AA400F64E66 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				50E90AAB2202938300F64E66 /* AppDelegate.h */,
+				50E90AAC2202938300F64E66 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		50E90ACB22029AAC00F64E66 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		50E90ACC22029ADA00F64E66 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				50E90AD822029B0300F64E66 /* CALayer+Anim.h */,
+				50E90AD522029B0300F64E66 /* CALayer+Anim.m */,
+				50E90ADA22029B0300F64E66 /* NSDate+category.h */,
+				50E90AF122029B0400F64E66 /* NSDate+category.m */,
+				50E90AD222029B0200F64E66 /* NSDate+PosTool.h */,
+				50E90ADF22029B0300F64E66 /* NSDate+PosTool.m */,
+				50E90AE722029B0300F64E66 /* NSDictionary+Tool.h */,
+				50E90AF022029B0400F64E66 /* NSDictionary+Tool.m */,
+				50E90ADC22029B0300F64E66 /* NSString+Extension.h */,
+				50E90AE022029B0300F64E66 /* NSString+Extension.m */,
+				50E90ADB22029B0300F64E66 /* NSString+Helper.h */,
+				50E90AD922029B0300F64E66 /* NSString+Helper.m */,
+				50E90AD622029B0300F64E66 /* UIButton+Gradient.h */,
+				50E90ADD22029B0300F64E66 /* UIButton+Gradient.m */,
+				50E90AF422029B0400F64E66 /* UIButton+ImageTitleSpacing.h */,
+				50E90AD322029B0300F64E66 /* UIButton+ImageTitleSpacing.m */,
+				50E90AED22029B0400F64E66 /* UIButton+Style.h */,
+				50E90AF322029B0400F64E66 /* UIButton+Style.m */,
+				50E90ADE22029B0300F64E66 /* UIColor+Extension.h */,
+				50E90AD722029B0300F64E66 /* UIColor+Extension.m */,
+				50E90AE622029B0300F64E66 /* UIDevice+TFDevice.h */,
+				50E90AD422029B0300F64E66 /* UIDevice+TFDevice.m */,
+				50E90ACF22029B0200F64E66 /* UIImageView+ExtensionColor.h */,
+				50E90AD022029B0200F64E66 /* UIImageView+ExtensionColor.m */,
+				50E90AE422029B0300F64E66 /* UILabel+Style.h */,
+				50E90AE522029B0300F64E66 /* UILabel+Style.m */,
+				50E90AE122029B0300F64E66 /* UITableView+Extension.h */,
+				50E90AE922029B0400F64E66 /* UITableView+Extension.m */,
+				50E90AD122029B0200F64E66 /* UITextView+Placeholder.h */,
+				50E90AEA22029B0400F64E66 /* UITextView+Placeholder.m */,
+				50E90AEB22029B0400F64E66 /* UIView+Style.h */,
+				50E90AE222029B0300F64E66 /* UIView+Style.m */,
+				50E90AEC22029B0400F64E66 /* UIViewController+ZZNavigationItem.h */,
+				50E90AEE22029B0400F64E66 /* UIViewController+ZZNavigationItem.m */,
+				50E90AEF22029B0400F64E66 /* ZZActionButton.h */,
+				50E90AE822029B0400F64E66 /* ZZActionButton.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		50E90ACD22029AE500F64E66 /* LoginManager */ = {
+			isa = PBXGroup;
+			children = (
+				50E90B0822029B4B00F64E66 /* BYUserInfo.h */,
+				50E90B0922029B4B00F64E66 /* BYUserInfo.m */,
+			);
+			path = LoginManager;
+			sourceTree = "<group>";
+		};
+		50E90ACE22029AED00F64E66 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		50E90B1022029C6A00F64E66 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		50E90B1122029C7700F64E66 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				50E90B122202A31C00F64E66 /* BYBaseViewController.h */,
+				50E90B132202A31C00F64E66 /* BYBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		858687300FA40F79271E8646 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE085270B3CDA02F2C30E0D5 /* Pods-Boyue.debug.xcconfig */,
+				7FD82D1611777AE007FD4908 /* Pods-Boyue.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		86ADF5DC8FD9F5502285746D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F05575DF5BD16F8114D8B0E /* libPods-Boyue.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +302,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50E90ABE2202938400F64E66 /* Build configuration list for PBXNativeTarget "Boyue" */;
 			buildPhases = (
+				B8448A349F8418C90303835F /* [CP] Check Pods Manifest.lock */,
 				50E90AA42202938300F64E66 /* Sources */,
 				50E90AA52202938300F64E66 /* Frameworks */,
 				50E90AA62202938300F64E66 /* Resources */,
+				08C952C0A073130C1B79FA7D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,11 +355,61 @@
 			files = (
 				50E90AB82202938400F64E66 /* LaunchScreen.storyboard in Resources */,
 				50E90AB52202938400F64E66 /* Assets.xcassets in Resources */,
+				50E90AC622029A6000F64E66 /* ImageIcon.xcassets in Resources */,
 				50E90AB32202938300F64E66 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08C952C0A073130C1B79FA7D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Boyue/Pods-Boyue-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Boyue/Pods-Boyue-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8448A349F8418C90303835F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Boyue-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		50E90AA42202938300F64E66 /* Sources */ = {
@@ -142,7 +418,28 @@
 			files = (
 				50E90AB02202938300F64E66 /* ViewController.m in Sources */,
 				50E90ABB2202938400F64E66 /* main.m in Sources */,
+				50E90AF822029B0500F64E66 /* CALayer+Anim.m in Sources */,
+				50E90AF722029B0500F64E66 /* UIDevice+TFDevice.m in Sources */,
+				50E90B0022029B0500F64E66 /* UILabel+Style.m in Sources */,
+				50E90B0222029B0500F64E66 /* UITableView+Extension.m in Sources */,
+				50E90B0622029B0500F64E66 /* NSDate+category.m in Sources */,
+				50E90AF922029B0500F64E66 /* UIColor+Extension.m in Sources */,
+				50E90B142202A31C00F64E66 /* BYBaseViewController.m in Sources */,
+				50E90B0322029B0500F64E66 /* UITextView+Placeholder.m in Sources */,
+				50E90B0422029B0500F64E66 /* UIViewController+ZZNavigationItem.m in Sources */,
+				50E90AFC22029B0500F64E66 /* NSDate+PosTool.m in Sources */,
+				50E90AFD22029B0500F64E66 /* NSString+Extension.m in Sources */,
+				50E90AFA22029B0500F64E66 /* NSString+Helper.m in Sources */,
+				50E90AF622029B0500F64E66 /* UIButton+ImageTitleSpacing.m in Sources */,
+				50E90B0522029B0500F64E66 /* NSDictionary+Tool.m in Sources */,
 				50E90AAD2202938300F64E66 /* AppDelegate.m in Sources */,
+				50E90AFE22029B0500F64E66 /* UIView+Style.m in Sources */,
+				50E90AC322029A1F00F64E66 /* Foundation+Log.m in Sources */,
+				50E90B0122029B0500F64E66 /* ZZActionButton.m in Sources */,
+				50E90B0722029B0500F64E66 /* UIButton+Style.m in Sources */,
+				50E90B0A22029B4B00F64E66 /* BYUserInfo.m in Sources */,
+				50E90AFB22029B0500F64E66 /* UIButton+Gradient.m in Sources */,
+				50E90AF522029B0500F64E66 /* UIImageView+ExtensionColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,9 +579,11 @@
 		};
 		50E90ABF2202938400F64E66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE085270B3CDA02F2C30E0D5 /* Pods-Boyue.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Boyue/Supporting Files/PCHFile.pch";
 				INFOPLIST_FILE = Boyue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -292,15 +591,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hudun.Boyue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		50E90AC02202938400F64E66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FD82D1611777AE007FD4908 /* Pods-Boyue.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Boyue/Supporting Files/PCHFile.pch";
 				INFOPLIST_FILE = Boyue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -308,7 +609,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hudun.Boyue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
